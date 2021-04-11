@@ -1,0 +1,27 @@
+[
+  {
+    "country": "Санкт-Петербург",
+    "phone": "+7(911)345-31-53",
+    "email": "spb@dadve.com"
+  },
+  {
+    "country": "Москва",
+    "phone": "+7(###)###-##-##",
+    "email": "msk@dadve.com"
+  },
+  {
+    "country": "Мурманск",
+    "phone": "+7(911)345-31-53",
+    "email": "mmsk@dadve.com"
+  },
+  {
+    "country": "Петрозаводск",
+    "phone": "++7(911)345-31-53",
+    "email": "ptr@dadve.com"
+  },
+  {
+    "country": "Кингисепп",
+    "phone": "+7(911)345-31-53",
+    "email": "kng@dadve.com"
+  }
+]
