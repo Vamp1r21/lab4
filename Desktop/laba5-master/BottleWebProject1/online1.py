@@ -1,5 +1,4 @@
 import json
-import uuid
 import compare
 from bottle import post, request, template
 from datetime import date
@@ -12,9 +11,9 @@ def get_all_onlines():
 		online = json.loads(file_content)
 	return [x for x in online if x['isTrue'] == "True"]
 
-def create_online(art): # Функция для удаления аккаунта по его id
+def create_online(art): # Функция для создания аккаунта
 	articles = []
-	with open('online.json') as f: # Получение данных с файла articles.json
+	with open('online.json') as f: # Получение данных с файла online.json
 		file_content = f.read()
 		articles = json.loads(file_content)
 	articles.append(art) # Добавление в массив аккаунтов новый аккаунт
