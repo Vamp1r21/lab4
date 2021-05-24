@@ -36,7 +36,13 @@
     <Compile Include="compare.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="online1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="routes.py" />
+    <Compile Include="test.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="test_1.py">
       <SubType>Code</SubType>
     </Compile>
@@ -49,6 +55,7 @@
     <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="online.json" />
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />
     <Content Include="static\content\bootstrap.min.css" />
@@ -76,6 +83,8 @@
     <Content Include="views\contact.tpl" />
     <Content Include="views\index.tpl" />
     <Content Include="views\layout.tpl" />
+    <Content Include="views\online.tpl" />
+    <Content Include="views\registration.tpl" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env1\">
